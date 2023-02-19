@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deals section</title>
+
+	<style type="text/css">
+		body{
+		  background-image: url("img/groc.jpg");
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  
+		}
+		
+			*{
+				padding: 0px;
+				margin: 0px;
+				box-sizing: border-box;
+				overflow: hidden;
+				font-family: system-ui;
+			}
+
+			.nav-bar{
+				position: fixed;
+				width: 100%;
+				height: 6vh;
+				background: #184d47;
+
+			}
+			.nav-bar-content{
+				color: #fff;
+				margin-top: 10px;
+				text-align: center;
+			}
+		.deal{
+		  padding: 30px;
+		  font-size: 16px;
+		  font-weight: bold;
+		  color: white;
+		  display: inline-block;
+		  margin-top: 88px;
+		  margin: 16px;
+		  width: 20%;
+		  background:linear-gradient(120deg,#16817a 20%,#cee397 50%,#16817a 80%);
+		  			transition: ease-in-out 300ms;
+		  
+		}
+		.deal:hover{
+			box-shadow: 1px 2px 10px 2px #000;
+			transform: translateY(10px);
+
+
+		}
+		.deals-container{
+		margin: 88px 20px 0px 20px;
+		width: 100%;
+		text-align: center;
+		}
+		.coupon-btn{
+		border: 1px solid white;
+		color: black;
+		margin: 10px;
+		border-radius: 20px;
+		padding: 5px;
+
+		}
+		.coupon-btn:hover{
+		box-shadow: 0 0 10px 5px #16817a inset;
+
+		}
+		.title{
+		  padding: 30px;
+		  font-size: 30px;
+		  font-weight: bold;
+		  letter-spacing: 10px;
+		  color:#fff;
+		  font-style: italic;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Header of Deal Page -->
+
+	<div class="nav-bar">
+		<div class="nav-bar-content">
+			<marquee behavior="alternate" direction="right"><p>&nbsp;&nbsp;&nbsp;Deals are <b>open now</b></p></marquee>
+		</div>
+	</div>
+
+	<!-- End Of Header Section -->
+
+
+	<!--deals page begin-->
+  <div class="deals-container" id="deals">
+    <div class="parallax">
+      <div class="title">DEALS</div>
+    </div>
+    <div class="deal">
+      Save 10% on min-purchase of Rs.500 on vegetables<br/>
+      <button class="coupon-btn">Add coupon</button>   
+    </div>
+    <div class="deal">
+      Save 15% on min-purchase of Rs.1000 on fruits<br/>
+      <button class="coupon-btn">Add coupon</button>   
+    </div>
+    <div class="deal">
+      Save 15% on purchase of Rs.1500 on meat/sea-foods<br/>
+      <button class="coupon-btn">Add coupon</button>   
+    </div>
+
+
+    <div class="deal">
+      Save 20% on min-purchase of Rs.500 on vegetables<br/>
+      <button class="coupon-btn">Add coupon</button>   
+    </div>
+    <div class="deal">
+      Save 10% on min-purchase of Rs.1000 on fruits<br/>
+      <button class="coupon-btn">Add coupon</button>   
+    </div>
+    <div class="deal">
+      Save 15% on min-purchase of 5kg on meat/sea-foods<br/>
+      <button class="coupon-btn">Add coupon</button>   
+    </div>
+    <div class="deal">
+      Save 10% on min-purchase of Rs.500 on fruits<br/>
+      <button class="coupon-btn">Add coupon</button>   
+    </div>
+    <div class="deal">
+      Save 15% on min-purchase of Rs.1500 on meat/sea-foods<br/>
+      <button class="coupon-btn">Add coupon</button>   
+    </div>
+    
+  </div>
+
+  <!--deals end here-->
+
+
+
+
+</body>
+</html>

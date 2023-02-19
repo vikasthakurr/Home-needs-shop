@@ -1,0 +1,269 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    font-family: system-ui;
+}
+
+.parallax,
+.parallax1 {
+    background-image: url("img/groc.jpg");
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-title {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu {
+    background: #184d47;
+    text-align: center;
+}
+
+.menu-ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.menu-ul li {
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 15px 14px 18px;
+}
+
+.a-menu,
+.a-links {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-ul li:hover {
+    background: #5b8c5a;
+    transform: scale(1.1);
+}
+
+form {
+    display: block;
+    margin-top: -9px;
+}
+
+.search-box {
+    border: solid white;
+    border-radius: 40px;
+    background: white;
+    width: max-content;
+    display: inline-block;
+    margin: 6px;
+    height: max-content;
+}
+
+.search-input {
+    border: solid white;
+    border-radius: 40px;
+    outline: none;
+    background: #fff;
+    /* margin-bottom: 0px 0 10px 8px; */
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-btn {
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.search-input {
+    width: 220px;
+    border: none;
+    font-size: 14px;
+    background: transparent;
+    margin: 12px 0 0 8px;
+}
+
+.fa-search {
+    font-size: 16px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.container,
+.deals-container {
+    width: 100%;
+    text-align: center;
+}
+
+.categories {
+    width: max-content;
+    margin: 20px;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+
+.categories:hover,
+.items:hover {
+    box-shadow: 0 0 10px 3px #184d47;
+}
+
+.item-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+}
+
+.image-title {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 12px;
+    color: #fff;
+    background-color: #184d47;
+}
+
+.deal {
+    padding: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 16px;
+    width: 20%;
+    background: linear-gradient(120deg, #16817a 20%, #cee397 50%, #16817a 80%);
+}
+
+.coupon-btn {
+    border: 1px solid white;
+    color: black;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.coupon-btn:hover {
+    box-shadow: 0 0 10px 5px #16817a inset;
+}
+
+.images {
+    display: inline-block;
+}
+
+.item-image-size {
+    height: 180px;
+    width: 200px;
+    padding: 10px;
+}
+
+.items {
+    width: max-content;
+    margin: 20px;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+
+.description {
+    margin: 20px;
+    min-height: 100px;
+}
+
+.item-select {
+    margin: 10px 0 0;
+}
+
+.buynow-btn {
+    border: 1px solid #184d47;
+    background: #184d47;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.buynow-btn:hover {
+    border: 1px solid #5b8c5a;
+    box-shadow: 0 0 10px #5b8c5a inset;
+}
+
+.parallax1 {
+    background-image: url("img/groc.jpg");
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+.quick-links {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 30%;
+}
+
+.quick-links ul {
+    padding: 0;
+}
+
+.quick-links li {
+    list-style: none;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.a-links:hover {
+    color: #fd5e53;
+}
+
+.copyrights {
+    font-size: 16px;
+    font-family: verdana, arial, helvecita, sans-serif;
+    text-align: center;
+    margin: 15px;
+}
+
+.veg-containers {
+    display: inline-block;
+}
+
+#login-btn {
+    float: right;
+}
